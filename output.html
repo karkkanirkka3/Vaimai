@@ -1,9 +1,10 @@
+
 <!DOCTYPE html>
-<html lang="sa">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>अहं मम भगिनी च</title>
+    <title>PDF Conversion</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -24,36 +25,16 @@
             padding: 20px;
             box-shadow: 0 4px 8px rgba(0,0,0,0.1);
         }
-        .page img.main-illustration {
+        .page img {
             width: 100%;
             height: auto;
             display: block;
             margin-bottom: 20px;
         }
-        .sanskrit-text {
-            font-size: 1.5em; /* Larger font for Sanskrit */
-            line-height: 1.8;
-            text-align: center;
-            margin-top: 20px;
-        }
-        .cover-content, .credits {
-            text-align: center;
+        .text-content {
+            font-size: 1.2em;
             line-height: 1.6;
-        }
-        .cover-content .logo {
-            max-width: 200px;
-            margin: 20px 0;
-        }
-        .cover-content h1 {
-            font-size: 2.5em;
-            margin: 10px 0;
-        }
-        .level-box {
-            background-color: #ffeb3b;
-            padding: 10px 20px;
-            display: inline-block;
-            margin-top: 20px;
-            font-weight: bold;
+            text-align: justify;
         }
         .page-number {
             text-align: right;
@@ -61,117 +42,133 @@
             font-size: 0.9em;
             margin-top: 20px;
         }
-        .attribution-page p {
-            font-size: 0.9em;
-        }
-        .attribution-page a {
-            color: #007bff;
-        }
-        .attribution-page .logo {
-            max-width: 150px;
-            margin: 10px 0;
-        }
     </style>
 </head>
 <body>
-
-    <!-- 
-      NOTE: Verify the image filenames in your 'images' folder. 
-      The names below (e.g., page_1_img_1.jpeg) are best guesses. 
-      You may need to change the index number (_img_1, _img_2) or the extension (.jpeg, .png).
-    -->
-
-    <!-- Page 1: Cover -->
+    <!-- Page 1 -->
     <div class="page">
-        <img src="images/page_1_img_1.jpeg" alt="Two girls on a swing hanging from a tree" class="main-illustration">
-        <div class="cover-content">
-            <img src="images/page_1_img_2.jpeg" alt="StoryWeaver Community Logo" class="logo">
-            <h1>अहं मम भगिनी च</h1>
-            <div class="credits">
-                <p><strong>Author:</strong> Kanchan Bannerjee</p>
-                <p><strong>Illustrator:</strong> Saloni Chopra</p>
-                <p><strong>Translator:</strong> Priya Bhakthan</p>
-            </div>
-            <div class="level-box">
-                Level 1
-            </div>
+        <img src="images/page_1_img_1.jpeg" alt="Image from page 1">
+        <img src="images/page_1_img_2.jpeg" alt="Image from page 1">
+        <img src="images/page_1_img_3.png" alt="Image from page 1">
+        <div class="text-content">
+            <p>अहं मम भगनी च
+Author: Kanchan Bannerjee
+Illustrator: Saloni Chopra
+Translator: Priya Bhakthan</p>
         </div>
+        <div class="page-number">1/9</div>
     </div>
 
     <!-- Page 2 -->
     <div class="page">
-        <img src="images/page_2_img_1.jpeg" alt="A girl with pigtails holding a chalk, with a mouse peeking through a window in the background." class="main-illustration">
-        <div class="sanskrit-text">
-            <p>मम भगिन्याः नाम अनुपमा ।</p>
-            <p>यदा अहं गृहपाठं लिखामि तदा सा मम साहाय्यं करोति ।</p>
+        <img src="images/page_2_img_1.jpeg" alt="Image from page 2">
+        <div class="text-content">
+            <p>मम भगयाः नाम अनुपमा ।
+यदा अहं गृहपाठं लखाम तदा सा मम साहायं करोत ।
+2/7</p>
         </div>
-        <div class="page-number">2/7</div>
+        <div class="page-number">2/9</div>
     </div>
 
     <!-- Page 3 -->
     <div class="page">
-        <img src="images/page_3_img_1.jpeg" alt="Two girls studying, one is showing a slate with '1+1=2' written on it." class="main-illustration">
-        <div class="sanskrit-text">
-            <p>कदाचित् अहं गृहपाठं कर्तुं न इच्छामि ।</p>
+        <img src="images/page_3_img_1.jpeg" alt="Image from page 3">
+        <div class="text-content">
+            <p>कदाचत् अहं गृहपाठं कतु  न इ"छाम ।
+3/7</p>
         </div>
-        <div class="page-number">3/7</div>
+        <div class="page-number">3/9</div>
     </div>
 
     <!-- Page 4 -->
     <div class="page">
-        <img src="images/page_4_img_1.jpeg" alt="A girl teaches another girl how to ride a bicycle on a path." class="main-illustration">
-        <div class="sanskrit-text">
-            <p>अनुपामायाः समीपे एका बृहती द्विचक्रिका अस्ति ।</p>
-            <p>सा मां द्विचक्रिकायाः चालनं पाठयति ।</p>
+        <img src="images/page_4_img_1.jpeg" alt="Image from page 4">
+        <div class="text-content">
+            <p>अनुपामायाः समीपे एका बृहती (च)का अ*+त ।
+सा  मां (च)कायाः चालनं पाठयत ।
+4/7</p>
         </div>
-        <div class="page-number">4/7</div>
+        <div class="page-number">4/9</div>
     </div>
 
     <!-- Page 5 -->
     <div class="page">
-        <img src="images/page_5_img_1.jpeg" alt="A girl falls off a bicycle while another girl rushes to help her." class="main-illustration">
-        <div class="sanskrit-text">
-            <p>यदा अहं द्विचक्रिकातः पतामि तदा सा झटिति आगत्य मम साहाय्यं करोति ।</p>
+        <img src="images/page_5_img_1.jpeg" alt="Image from page 5">
+        <div class="text-content">
+            <p>यदा अहं  (च)कातः पताम तदा सा झ-टत आग0य
+मम साहायं करोत ।
+5/7</p>
         </div>
-        <div class="page-number">5/7</div>
+        <div class="page-number">5/9</div>
     </div>
 
     <!-- Page 6 -->
     <div class="page">
-        <img src="images/page_6_img_1.jpeg" alt="One girl is pulling the pigtail of another girl, who looks upset." class="main-illustration">
-        <div class="sanskrit-text">
-            <p>अनुपमा मया सह कलहम् अपि करोति ।</p>
-            <p>तदा अहं कुपिता भवामि ।</p>
+        <img src="images/page_6_img_1.jpeg" alt="Image from page 6">
+        <div class="text-content">
+            <p>अनुपमा मया सह कलहम् अप करोत ।
+तदा अहं कुपता भवाम ।
+6/7</p>
         </div>
-        <div class="page-number">6/7</div>
+        <div class="page-number">6/9</div>
     </div>
 
     <!-- Page 7 -->
     <div class="page">
-        <img src="images/page_7_img_1.jpeg" alt="Two girls are happily sharing a pink ice cream bar." class="main-illustration">
-        <div class="sanskrit-text">
-            <p>किञ्चित् कालानन्तरं सा वदति - "क्षम्यताम्" इति ।</p>
-            <p>आवां सन्तोषेण वसावः।</p>
+        <img src="images/page_7_img_1.jpeg" alt="Image from page 7">
+        <div class="text-content">
+            <p>क23चत् कालानतरं  सा वदत - "67यताम्" इत ।
+आवां सतोषेण  वसावः ।
+7/7</p>
         </div>
-        <div class="page-number">7/7</div>
+        <div class="page-number">7/9</div>
     </div>
 
-    <!-- Page 8: Attribution -->
-    <div class="page attribution-page">
-        <p>This book was made possible by Pratham Books' StoryWeaver platform. Content under Creative Commons licenses can be downloaded, translated and can even be used to create new stories provided you give appropriate credit, and indicate if changes were made. To know more about this, and the full terms of use and attribution, please visit the following <a href="https://storyweaver.org.in/terms_and_conditions">link</a>.</p>
-        
-        <h3>Story Attribution:</h3>
-        <p>This story: अहं मम भगिनी च is translated by Priya Bhakthan. The © for this translation lies with Priya Bhakthan, 2019. Some rights reserved. Released under CC BY 4.0 license. Based on Original story: 'My Sister and Me', by Kanchan Bannerjee. © Pratham Books, 2013. Some rights reserved. Released under CC BY 4.0 license.</p>
-
-        <h3>Images Attributions:</h3>
-        <p>Cover page: <a href="#">Two girls on a swing hanging from a tree</a> by Saloni Chopra © Pratham Books, 2013. Some rights reserved. Released under CC BY 4.0 license. Page 2: <a href="#">An angry girl scolding someone</a>, by Saloni Chopra © Pratham Books, 2013. Some rights reserved. Released under CC BY 4.0 license. Page 3: <a href="#">One girl scolding another while teaching her</a>, by Saloni Chopra © Pratham Books, 2013. Some rights reserved. Released under CC BY 4.0 license. Page 4: <a href="#">A girl helping another to ride a bicycle</a>, by Saloni Chopra © Pratham Books, 2013. Some rights reserved. Released under CC BY 4.0 license. Page 5: <a href="#">A girl falls down from her bicycle in front of another girl</a> by Saloni Chopra © Pratham Books, 2013. Some rights reserved. Released under CC BY 4.0 license. Page 6: <a href="#">A girl teasing another girl by pulling her hair</a>, by Saloni Chopra © Pratham Books, 2013. Some rights reserved. Released under CC BY 4.0 license. Page 7: <a href="#">Two girls sharing an ice cream</a>, by Saloni Chopra © Pratham Books, 2013. Some rights reserved. Released under CC BY 4.0 license.</p>
-        
-        <hr>
-        <p><strong>Disclaimer:</strong> <a href="https://www.storyweaver.org.in/terms_and_conditions">https://www.storyweaver.org.in/terms_and_conditions</a></p>
-        <!-- The CC logo is likely extracted from page 8 -->
-        <img src="images/page_8_img_1.jpeg" alt="CC BY 4.0 License" class="logo">
-        <p>Some rights reserved. This book is CC-BY-4.0 licensed. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission. For full terms of use and attribution, <a href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</a></p>
+    <!-- Page 8 -->
+    <div class="page">
+        <img src="images/page_8_img_1.png" alt="Image from page 8">
+        <img src="images/page_8_img_2.png" alt="Image from page 8">
+        <img src="images/page_8_img_3.jpeg" alt="Image from page 8">
+        <div class="text-content">
+            <p>Story Attribution:
+This story: अहं मम भगनी च is translated by Priya Bhakthan . The © for this translation lies with Priya Bhakthan, 2019. Some rights reserved.
+Released under CC BY 4.0 license. Based on Original story: 'My Sister and Me', by Kanchan Bannerjee . © Pratham Books , 2013. Some rights
+reserved. Released under CC BY 4.0 license.
+Images Attributions:
+Cover page: Two girls on a swing hanging from a tree, by Saloni Chopra © Pratham Books, 2013. Some rights reserved. Released under CC BY
+4.0 license. Page 2: An angry girl scolding someone , by Saloni Chopra © Pratham Books, 2013. Some rights reserved. Released under CC BY 4.0
+license. Page 3: One girl scolding another while teaching her , by Saloni Chopra © Pratham Books, 2013. Some rights reserved. Released under
+CC BY 4.0 license. Page 4: A girl helping another to ride a bicycle, by Saloni Chopra © Pratham Books, 2013. Some rights reserved. Released
+under CC BY 4.0 license. Page 5: A girl falls down from her bicycle in front of another girl, by Saloni Chopra © Pratham Books, 2013. Some
+rights reserved. Released under CC BY 4.0 license. Page 6: A girl teasing another girl by pulling her hair, by Saloni Chopra © Pratham Books,
+2013. Some rights reserved. Released under CC BY 4.0 license. Page 7: Two girls sharing an ice cream, by Saloni Chopra © Pratham Books,
+2013. Some rights reserved. Released under CC BY 4.0 license.
+Disclaimer: https://www.storyweaver.org.in/terms_and_conditions
+Some rights reserved. This book is CC​-BY​-4.0 licensed. You can
+copy, modify, distribute and perform the work, even for
+commercial purposes, all without asking permission. For full
+terms of use and attribution,
+http://creativecommons.org/licenses/by/4.0/</p>
+        </div>
+        <div class="page-number">8/9</div>
     </div>
+
+    <!-- Page 9 -->
+    <div class="page">
+        <img src="images/page_9_img_1.png" alt="Image from page 9">
+        <div class="text-content">
+            <p>This is a Level 1 book for children who are eager to begin reading.
+(Sanskrit)
+अहं मम भगनी च
+एत+यां लघुकथायां य>प भगयौ कलहं कु@तः तथाप तयोः मAये महती Bीतः वतCते
+Pratham Books goes digital to weave a whole new chapter in the realm of multilingual children's stories. Knitting together children,
+authors, illustrators and publishers. Folding in teachers, and translators. To create a rich fabric of openly licensed multilingual stories
+for the children of India ​ and the world. Our unique online platform, StoryWeaver, is a playground where children, parents, teachers
+and librarians can get creative. Come, start weaving today, and help us get a book in every child's hand!</p>
+        </div>
+        <div class="page-number">9/9</div>
+    </div>
+
 
 </body>
 </html>
